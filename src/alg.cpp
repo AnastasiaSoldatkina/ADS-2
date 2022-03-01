@@ -4,7 +4,7 @@
 
 
 double pown(double value, uint16_t n) {
-  int w = 1;
+  double w = 1;
     while (n > 0) {
         w = w * value;
         n--;
